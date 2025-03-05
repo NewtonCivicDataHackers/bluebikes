@@ -2,6 +2,23 @@
 
 This repository contains tools for downloading, processing, and analyzing [BlueBikes](https://www.bluebikes.com/) bikeshare data, with a focus on Newton, Massachusetts stations.
 
+## Table of Contents
+
+- [Scripts](#scripts)
+- [Requirements & Setup](#requirements--setup)
+  - [Installing uv](#installing-uv)
+- [Basic Usage](#basic-usage)
+  - [Download and Process Data](#download-and-process-data)
+  - [Extract Station Information](#extract-station-information)
+  - [Analyze Trip Data](#analyze-trip-data)
+- [Complex Analysis Pipeline](#complex-analysis-pipeline)
+- [Understanding the Output](#understanding-the-output)
+  - [Common Column Naming Conventions](#common-column-naming-conventions)
+  - [Station Analysis Output](#station-analysis-output--stations)
+  - [Station Pair Analysis Output](#station-pair-analysis-output--station-pairs)
+  - [Field Relationships and Interpretations](#field-relationships-and-interpretations)
+- [Data Notes](#data-notes)
+
 ## Scripts
 
 All analysis scripts are in the `scripts/` directory:
